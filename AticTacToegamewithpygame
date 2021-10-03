@@ -25,6 +25,15 @@ player2 = font.render("X", True, yellow)
 winner_msg = [font.render("Player 1 is", True, purple), font.render("WINNER", True, purple), font.render("Player 2 is", True, purple)]
 match_draw = font.render("Match Draw", True, yellow)
 
+def printPlayerName(name){
+	name = input("enter your name")
+	if name = NULL:
+		name = "Yout Good Name Is Not Provided"
+	else:
+		name = "Your Good Name Is " + name
+	print(name)
+}
+
 # functions
 def delay_update(time):
 	pygame.display.update()
