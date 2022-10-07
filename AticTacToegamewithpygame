@@ -5,10 +5,12 @@ import pygame
 import os
 os.environ["SET_SDL_VIDEO"] = "1"
 
+#here it is initilizing pyagame to use further more 
 pygame.init()
 
 # screen dimensions
-screen_dimension = 400, 400
+screen_dimension = 500, 500
+
 
 # win = window
 win = pygame.display.set_mode(screen_dimension)
